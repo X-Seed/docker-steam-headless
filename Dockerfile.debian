@@ -530,6 +530,9 @@ RUN \
     && \
     echo
 
+RUN \
+    apt install xvfb
+
 # Various other tools
 ARG DUMB_INIT_VERSION=1.2.5
 ARG DUMB_UDEV_VERSION=64d1427
