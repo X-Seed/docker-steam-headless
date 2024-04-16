@@ -33,7 +33,7 @@ services:
       # Use the host fuse device.
       - /dev/fuse
       # Add the host uinput device.
-      - /dev/uinput
+      # - /dev/uinput
       # Add AMD/Intel HW accelerated video encoding/decoding devices (optional)
       #- /dev/dri
     # Ensure container access to devices 13:*
